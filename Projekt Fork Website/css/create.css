@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap");
+@import url(https://coolors.co/233d4d-fe7f2d-fcca46-a1c181-619b8a);
+:root {
+  --light-color: #eeeee4;
+  --darker-color: #e28743;
+  --darkest-color: #233d4d;
+  --light-green: #a1c181;
+  --darker-green: #619b8a;
+}
+
+body {
+  background: #dfdfdf;
+  margin: 0;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+.navbar-box {
+  background: var(--darkest-color);
+  padding: 1em;
+}
+
+.navbar-box .profile-text {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  letter-spacing: 0.05em;
+}
+
+.navbar-box .profile-text:hover {
+  font-weight: bold;
+  font-size: 15px;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  color: #e28743;
+}
+
+.navbar-box .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+a {
+  color: #666666;
+}
+
+ul {
+  text-decoration: none;
+}
+
+section {
+  padding: 2em 2em;
+}
+
+.title-section {
+  text-align: center;
+  margin-top: 7em;
+  height: 2vh;
+}
+
+.title-section .recipe-title {
+  margin-top: -2em;
+  padding: 0px;
+  font-weight: bold;
+  font-size: 2em;
+  color: var(--darkest-color);
+}
+
+.left-box {
+  text-align: center;
+  background: var(--light-color);
+  height: 70em;
+  border-radius: 4em;
+  -webkit-box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.5);
+}
+
+.left-box:hover {
+  -webkit-transform: translateY(-10px) scale(1) translateZ(0);
+          transform: translateY(-10px) scale(1) translateZ(0);
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+  -webkit-box-shadow: 0px 12px 15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 12px 15px rgba(0, 0, 0, 0.5);
+}
+
+.middle-box {
+  text-align: center;
+  background: var(--light-color);
+  height: 70em;
+  border-radius: 4em;
+  -webkit-box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.5);
+}
+
+.middle-box:hover {
+  -webkit-transform: translateY(-10px) scale(1) translateZ(0);
+          transform: translateY(-10px) scale(1) translateZ(0);
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+  -webkit-box-shadow: 0px 12px 15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 12px 15px rgba(0, 0, 0, 0.5);
+}
+
+.right-box {
+  text-align: center;
+  background: var(--light-color);
+  height: 70em;
+  border-radius: 4em;
+  -webkit-box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.5);
+}
+
+.right-box:hover {
+  -webkit-transform: translateY(-10px) scale(1) translateZ(0);
+          transform: translateY(-10px) scale(1) translateZ(0);
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+  -webkit-box-shadow: 0px 12px 15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 12px 15px rgba(0, 0, 0, 0.5);
+}
+
+.subheading {
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  color: #233d4da9;
+  text-transform: uppercase;
+}
+
+.middle-section {
+  text-align: center;
+  margin-top: 1em;
+  height: 70em;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 3fr 1fr;
+      grid-template-columns: 1fr 3fr 1fr;
+  grid-gap: 1%;
+}
+
+.text-area-middle-box {
+  height: 45em;
+  font-size: large;
+  width: 95%;
+  resize: none;
+  background-color: #ece63dbe;
+  margin-top: 2%;
+  font-family: "Times New Roman", Times, serif;
+  border-color: Transparent;
+  border-radius: 1em;
+  border: none;
+  outline: none;
+  background-attachment: local;
+  background-image: linear-gradient(to right, white 10px, transparent 10px), linear-gradient(to left, white 10px, transparent 10px), repeating-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);
+  line-height: 31px;
+}
+
+.text-area-middle-box:focus {
+  outline: none;
+}
+
+.left-box-submit-btn {
+  background-color: var(--darker-color);
+  /* Green */
+  border: none;
+  color: black;
+  padding: 10px 32px;
+  border-radius: 2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 15px 2px;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.left-box-submit-btn:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
+.middle-box-submit-btn {
+  background-color: var(--darker-color);
+  /* Green */
+  border: none;
+  color: black;
+  padding: 10px 32px;
+  border-radius: 2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 18px 2px;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.middle-box-submit-btn:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
+.text-area-left-box {
+  height: 45em;
+  font-size: large;
+  width: 85%;
+  resize: none;
+  margin-top: 7%;
+  font-family: "Noto Sans TC", serif;
+  border-color: Transparent;
+  border-radius: 1em;
+  outline: none;
+  text-align: justify;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  background-attachment: local;
+  background-image: linear-gradient(to right, white 10px, transparent 10px), linear-gradient(to left, white 10px, transparent 10px), repeating-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);
+  line-height: 31px;
+}
+
+.text-area-left-box:focus {
+  outline: none;
+}
+
+.upload-btn {
+  margin: 0;
+  color: black;
+  background: var(--darker-color);
+  border: none;
+  width: 150px;
+  height: 35px;
+  margin-top: 230px;
+  margin-left: 1.5em;
+  border-radius: 2em;
+  text-decoration: none;
+  font-size: 16px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  outline: none;
+  padding-bottom: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.upload-btn:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
+.upload-mssg {
+  font-size: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: #233d4da9;
+  text-transform: uppercase;
+  padding: 25% 0;
+}
+
+form {
+  padding: 50% 0;
+  font-weight: bold;
+  color: #233d4da9;
+  font-size: 10px;
+}
+/*# sourceMappingURL=create.css.map */

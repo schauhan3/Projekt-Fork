@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap");
+@import url(https://coolors.co/233d4d-fe7f2d-fcca46-a1c181-619b8a);
+
+//makes a global color variable so its easier to change if needed
+:root {
+  --light-color: #eeeee4;
+  --darker-color: #e28743;
+  --darkest-color: #233d4d;
+  --light-green: #a1c181;
+  --darker-green: #619b8a;
+}
+
+// Backgound only
+body {
+  background: #dfdfdf;
+  //   To delete the default white space
+  margin: 0; //effects everything outside of that element
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+//Mobile friendly
+.navbar-box {
+  background: var(--darkest-color);
+  padding: 1em; //effects everthing within the element
+
+  .profile-text {
+    text-decoration: none;
+    //font-weight: bold;
+    color: white;
+    font-size: 13px; //em unit is relative unit meaning relative to the font size of the element. so this would be 1.2 time the original font
+    letter-spacing: 0.05em;
+
+    &:hover {
+      font-weight: bold;
+      font-size: 15px;
+      transition: 0.1s;
+      color: #e28743;
+    }
+  }
+
+  .container {
+    display: flex; //way to structure an element
+    place-content: space-between; //creates a space between the items
+  }
+}
+
+a {
+  color: rgb(102, 102, 102);
+}
+
+ul {
+  text-decoration: none;
+  //background: blue;
+}
+
+section {
+  padding: 2em 2em;
+  //margin: 100px;
+}
+
+.mid-section {
+  text-align: center;
+  margin-top: 15em;
+}
+
+.main-content {
+  .main-title {
+    margin-top: -2em;
+    font-weight: bold;
+    font-size: 1.9em;
+    color: var(--darkest-color);
+  }
+
+  .sub-heading {
+    font-size: 1.5em;
+    letter-spacing: 0.4em;
+    color: var(--darker-color);
+    margin-top: -1.5em;
+  }
+
+  .create-recipe {
+    background: var(--darkest-color);
+    color: white;
+    text-decoration: none;
+    margin-top: 5em;
+    padding: 1em 4em;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    border-radius: 7em;
+    font-weight: bold;
+    text-align: center;
+    transition: ease-out 0.3s;
+  }
+
+  .edit-recipe {
+    background: var(--darkest-color);
+    color: white;
+    text-decoration: none;
+    margin-top: 5em;
+    padding: 1em 4em;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    border-radius: 10em;
+    font-weight: bold;
+    text-align: center;
+    transition: ease-out 0.3s;
+  }
+  .create-recipe:hover {
+    background: #e28743;
+    transition: ease-out 0.3s;
+  }
+
+  .edit-recipe:hover {
+    background: #e28743;
+    transition: ease-out 0.3s;
+  }
+}
+
+//Starting of last section
+
+.how-to-section {
+  .how-to-text {
+    padding-top: 1em;
+    //padding-bottom: 0em;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+    color: #233d4d;
+  }
+
+  .learn-text {
+    //padding-top: 0;
+    font-size: 15px;
+    text-align: center;
+    font-weight: lighter;
+    color: rgb(172, 172, 172);
+  }
+
+  .how-to-container {
+    background: var(--light-color);
+    border-radius: 1.5em;
+    //padding-bottom: 11.7em;
+    height: 440px;
+    margin-bottom: 0;
+    box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.5);
+  }
+}

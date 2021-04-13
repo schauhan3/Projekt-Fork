@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap");
+@import url(https://coolors.co/233d4d-fe7f2d-fcca46-a1c181-619b8a);
+:root {
+  --light-color: #eeeee4;
+  --darker-color: #e28743;
+  --darkest-color: #233d4d;
+  --light-green: #a1c181;
+  --darker-green: #619b8a;
+}
+
+body {
+  background: #dfdfdf;
+  margin: 0;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+.navbar-box {
+  background: var(--darkest-color);
+  padding: 1em;
+}
+
+.navbar-box .profile-text {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  letter-spacing: 0.05em;
+}
+
+.navbar-box .profile-text:hover {
+  font-weight: bold;
+  font-size: 15px;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  color: #e28743;
+}
+
+.navbar-box .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+a {
+  color: #666666;
+}
+
+ul {
+  text-decoration: none;
+}
+
+section {
+  padding: 2em 2em;
+}
+
+.mid-section {
+  text-align: center;
+  margin-top: 15em;
+}
+
+.main-content .main-title {
+  margin-top: -2em;
+  font-weight: bold;
+  font-size: 1.9em;
+  color: var(--darkest-color);
+}
+
+.main-content .sub-heading {
+  font-size: 1.5em;
+  letter-spacing: 0.4em;
+  color: var(--darker-color);
+  margin-top: -1.5em;
+}
+
+.main-content .create-recipe {
+  background: var(--darkest-color);
+  color: white;
+  text-decoration: none;
+  margin-top: 5em;
+  padding: 1em 4em;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  border-radius: 7em;
+  font-weight: bold;
+  text-align: center;
+  -webkit-transition: ease-out 0.3s;
+  transition: ease-out 0.3s;
+}
+
+.main-content .edit-recipe {
+  background: var(--darkest-color);
+  color: white;
+  text-decoration: none;
+  margin-top: 5em;
+  padding: 1em 4em;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  border-radius: 10em;
+  font-weight: bold;
+  text-align: center;
+  -webkit-transition: ease-out 0.3s;
+  transition: ease-out 0.3s;
+}
+
+.main-content .create-recipe:hover {
+  background: #e28743;
+  -webkit-transition: ease-out 0.3s;
+  transition: ease-out 0.3s;
+}
+
+.main-content .edit-recipe:hover {
+  background: #e28743;
+  -webkit-transition: ease-out 0.3s;
+  transition: ease-out 0.3s;
+}
+
+.how-to-section .how-to-text {
+  padding-top: 1em;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 3px;
+  color: #233d4d;
+}
+
+.how-to-section .learn-text {
+  font-size: 15px;
+  text-align: center;
+  font-weight: lighter;
+  color: #acacac;
+}
+
+.how-to-section .how-to-container {
+  background: var(--light-color);
+  border-radius: 1.5em;
+  height: 440px;
+  margin-bottom: 0;
+  -webkit-box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.5);
+}
+/*# sourceMappingURL=main.css.map */

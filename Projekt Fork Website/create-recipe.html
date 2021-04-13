@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/create.css">
+    <title>Create A Recipe</title>
+</head>
+
+<!-- Start everything from within the body tag -->
+ 
+<body>
+    <!-- Upper part of the page -->
+    <div class="navbar-box">
+        <!-- Box inside the outer box that contains all the navbar options -->
+        <div class="container">
+            <!-- Make the projeckt fork logo clikcable -->
+            <a class="profile-text" href="#">Home</a>
+            <a class="profile-text" href="#">My Recipies</a>            
+            <a class="profile-text" href="#">Logout</a>
+        </div>
+    </div>
+    <!-- End of upper part of the page -- end of navbar -->
+
+    <!-- ////////////////////////////////////////////////////////////////////////// -->
+    <!-- Start of the top-middle part of the page -->
+    <!-- Most outer box -->
+    <section class="title-section">
+        <!-- The outer box  that will hold the 3 blocks (recipie name, add ingredients, add instructions...etc.)-->
+        <div class="container">
+            <!-- Starting of left column of the page -->
+            <div class="recipe-title">
+                <!-- Main title heading -->
+                <h1>RECIPE NAME</h1>
+        </div>
+    </section>
+
+
+
+
+    <section class="middle-section">  
+
+        <div class="left-box">
+            <h3 class="subheading">Add Ingredients</h3>
+            <div class="inputContainer">
+                <textarea class="text-area-left-box" placeholder="Input Text Here..." name="text" required="false"></textarea>
+                <input type="submit" value="Save" class="left-box-submit-btn">
+            </div>
+           
+        </div>
+
+        <div class="middle-box">
+            <h3 class="subheading">Add Directions</h3>
+            <div class="inputContainer">
+                <textarea class="text-area-middle-box" placeholder="Input Text Here..." name="text" required="false"></textarea>
+                <input type="submit" value="Save" class="middle-box-submit-btn">
+            </div>
+        </div>
+        
+        <div class="right-box">
+            <h3 class="subheading">Add Recipe Image</h3>
+
+            <!-- Upload images in the right box -->
+            <form action="upload.php" method="POST">
+                <input type="file" multiple>
+                <p class="upload-mssg">Click "Browse" to upload an image</p>
+                <input type="submit" value="Upload" class="upload-btn">
+            </form>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <div class="footer-section">
+
+    </div>
+
+
+
+
+
+
+</body>
+</html>

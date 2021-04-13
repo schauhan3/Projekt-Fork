@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap");
+@import url(https://coolors.co/233d4d-fe7f2d-fcca46-a1c181-619b8a);
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+/* Code Developed from https://www.shapedivider.app/ -- This part is for citation purposes! */
+.custom-shape-divider-bottom-1618347554 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1618347554 svg {
+  position: relative;
+  display: block;
+  width: calc(300% + 1.3px);
+  height: 500px;
+}
+
+.custom-shape-divider-bottom-1618347554 .shape-fill {
+  fill: #233d4d;
+}
+/* End of Code from https://www.shapedivider.app/ -- This is for citation purposes! */
